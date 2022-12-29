@@ -1,0 +1,148 @@
+body {
+  font-family: sans-serif;
+}
+
+header,
+.team-members {
+  background-color: #5385c1;
+  color: #fff;
+  padding: 4em 0 6em 0;
+}
+
+nav {
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav .logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+nav ul li {
+  margin: 0 1em;
+  font-size: 1.15rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.container {
+  width: 80%;
+  margin: 3em auto;
+}
+
+header h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.subline {
+  font-size: 1.15rem;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+.columns-section .container,
+.article-section .container {
+  display: flex;
+}
+
+.col {
+  padding: 2em;
+  line-height: 1.4;
+}
+
+.col figure {
+  margin-bottom: 1.5em;
+}
+
+.col h3 {
+  font-size: 1.5rem;
+  color: #5385c1;
+}
+
+.col p {
+  color: #b1b1b1;
+  margin: 1em 0;
+  width: 85%;
+}
+
+.col button {
+  background-color: #5385c1;
+  color: #fff;
+  padding: 0.75em 1.5rem;
+  margin: 1em 0;
+}
+
+.team-members,
+.article-section {
+  padding: 5em 0;
+}
+
+.team-members h2,
+.article-section h2 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.team-members .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.member-card {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 3em 2em;
+}
+
+.member-card h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.member-card p {
+  text-align: center;
+  margin: 0.85em 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.member-card img {
+  border-radius: 50%;
+}
+
+.article-section h2 {
+  color: #5385c1;
+}
+
+.article-section p {
+  color: #b1b1b1;
+}
+
+footer .container {
+  margin: 0 auto;
+  padding: 3em 0;
+  border-top: 2px solid #dbdbdb;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  color: #b1b1b1;
+}
+
+footer ul {
+  display: flex;
+  color: #5385c1;
+}
+
+footer li {
+  margin-left: 1em;
+}
