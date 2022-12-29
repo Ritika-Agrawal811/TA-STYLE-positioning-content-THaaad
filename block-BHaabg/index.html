@@ -1,0 +1,152 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Gallery Layout</title>
+  </head>
+  <body>
+    <a href="#header" class="goToTop-btn">Top</a>
+
+    <header id="header">
+      <nav>
+        <span class="logo">FurryFriends</span>
+        <ul class="navigation-links">
+          <li>Home</li>
+          <li>Services</li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article class="container">
+        <div>
+          <h2>Cute Dogs</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+            expedita perspiciatis dignissimos non ab, aliquid adipisci ducimus
+            recusandae voluptatem sit sequi, magni numquam? Quod totam pariatur
+            quibusdam animi dolorem perferendis? Aliquid doloremque dolores
+            consequuntur suscipit similique. Ipsum perspiciatis corporis
+            consequatur laborum repellat! Eius esse deleniti officiis quos
+            adipisci ad cumque dicta. Id in tenetur maiores sint dolores
+            doloremque ullam nisi. Libero cum facilis quos quia est officia
+            fugit! Ipsam nihil iure in ea aperiam consequatur maiores modi
+            impedit non iste qui, asperiores explicabo consequuntur harum
+            aspernatur praesentium tenetur officiis neque.
+          </p>
+
+          <p>
+            Ipsum perspiciatis corporis consequatur laborum repellat! Eius esse
+            deleniti officiis quos adipisci ad cumque dicta. Id in tenetur
+            maiores sint dolores doloremque ullam nisi. Libero cum facilis quos
+            quia est officia fugit! Ipsam nihil iure in ea aperiam consequatur
+            maiores modi impedit non iste qui, asperiores explicabo consequuntur
+            harum aspernatur praesentium tenetur officiis neque.
+          </p>
+        </div>
+        <figure>
+          <img
+            src="https://res.cloudinary.com/djix6uusx/image/upload/v1594313721/samples/animals/three-dogs.jpg"
+            alt="three cute dogs"
+            width="500"
+            height="400"
+          />
+        </figure>
+      </article>
+
+      <section class="gallery-section">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <figure>
+                <img
+                  src="https://res.cloudinary.com/djix6uusx/image/upload/v1650222280/poodle_zpfk0j.png"
+                  alt="tbrown dog"
+                  width="300"
+                  height="400"
+                />
+              </figure>
+            </div>
+            <div class="col">
+              <figure>
+                <img
+                  src="https://res.cloudinary.com/djix6uusx/image/upload/v1650222278/Siberian-Husky_t0v3of.jpg"
+                  alt="tbrown dog"
+                  width="300"
+                  height="400"
+                />
+              </figure>
+            </div>
+            <div class="col">
+              <figure>
+                <img
+                  src="https://res.cloudinary.com/djix6uusx/image/upload/v1650222278/collie_xjutqv.jpg"
+                  alt="tbrown dog"
+                  width="300"
+                  height="400"
+                />
+              </figure>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <figure>
+                <img
+                  src="https://res.cloudinary.com/djix6uusx/image/upload/v1650222279/Labrador_Retriever_xfwxkx.png"
+                  alt="tbrown dog"
+                  width="300"
+                  height="400"
+                />
+              </figure>
+            </div>
+            <div class="col">
+              <figure>
+                <img
+                  src="https://res.cloudinary.com/djix6uusx/image/upload/v1650222279/Airedale_Terrier_fssdvz.jpg"
+                  alt="tbrown dog"
+                  width="300"
+                  height="400"
+                />
+              </figure>
+            </div>
+            <div class="col">
+              <figure>
+                <img
+                  src="https://res.cloudinary.com/djix6uusx/image/upload/v1650222278/australian-shepherd_yri80f.jpg"
+                  alt="tbrown dog"
+                  width="300"
+                  height="400"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; FurryFriends 2022</p>
+    </footer>
+  </body>
+</html>
